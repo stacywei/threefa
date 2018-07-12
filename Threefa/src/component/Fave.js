@@ -25,7 +25,7 @@ function Fave(props) {
 
   return (
     <div className={classes.root}>
-    <Typography variant='subheading'> Restaurants we love </Typography>
+    <Typography variant='subheading'> <h3> Restaurants we love </h3> </Typography>
       <GridList className={classes.gridList} cols={3}>
         {foodData.map(tile => (
           <GridListTile key={tile.img}>

@@ -80,17 +80,20 @@ class Tabfilter extends React.Component {
           <br/>
           <Grid container spacing={24}>
             <Grid item xs={12} sm={6}>
-              <Thumbnail href="#" src='assets/restaurant-1.jpg' responsive/>
+              <Thumbnail src='assets/restaurant-1.jpg' responsive/>
             </Grid>
             <Grid item xs={12} sm={6} >
               <Tab label="NEW"/>
               <Tab label="POPULAR"/>
-              <MediaControlCard/>
+              <Link to="/company">
+                <MediaControlCard/>
+              </Link>
               <MediaControlCard/>
               <MediaControlCard/>
 
             </Grid>
           </Grid>
+          <hr/>
           </TabContainer>
 
           <TabContainer dir={this.props.direction}><Typography variant='title'> Fast Food  

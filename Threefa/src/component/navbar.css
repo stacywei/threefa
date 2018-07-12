@@ -1,18 +1,16 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
 .nav-bar {
- 
- 
-  
+  display: inline-flex;
+  vertical-align: middle;
 }
+
 .Nav-header {
-  background-color: #222;*/
+  background-color: #222;
   height: 5px;
   padding: 20px;
   color: white;
-  left: 20px;
-  
-  
+  left: 20px; 
 }
 
 .Nav-title {
@@ -26,6 +24,7 @@
 .Nav-intro {
   font-size: large;
 }
+
 .Nav-button{
   position: absolute;
   top:10px;
@@ -37,23 +36,26 @@
   
 }
 .Nav-icon{
-  position: absolute;
+  position: relative;
   top:8px;
   left:20px;
   background-color: #222;
-  color:white;
-  
+  color:white; 
   
 }
+
 .Nav-menu{
     position: absolute;
     left:15px;
     top:40px;
 }
 .Nav-search{
-  position:absolute;
-  left:430px;
-  top:10px;
-  
-
+  display: inline-flex;
+  vertical-align: middle;
 }
+
+toolbar {
+    display: inline-flex;
+    vertical-align: middle;
+}
+

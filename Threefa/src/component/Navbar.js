@@ -11,7 +11,8 @@ import { withStyles } from '@material-ui/core/styles';
 import {FormGroup, FormControl} from 'react-bootstrap/es';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
-import './Home.css';
+// import './Home.css'; // WHY ARE YOU IMPORTING THIS CSS AND NOT NAVBAR
+import './Navbar.css';
 
 
 const styles = theme => ({
@@ -29,7 +30,7 @@ login: {
   marginRight: 0,
   background: "green",
   color: "white",
-  marginBottom: 10,
+  marginBottom: 15,
 },
 simple: {
   marginTop: 30,
@@ -39,13 +40,14 @@ icon: {
   color: 'white'
 },
 search: {
-  marginBottom:10,
+  marginBottom: 0,
 },
 link:{
   color: 'white',
   fontSize: '1.5em',
 }
 });
+
 class NavBar extends React.Component{
 state = {
     anchorEl: null,
@@ -82,7 +84,7 @@ return (
 				<Typography className={flex}>
 					<a href='/' className={link}>Threefa </a>
 				</Typography>
-        <FormGroup>
+        <FormGroup className="searchbar">
           <FormControl type="text" placeholder="Search" className={search}/>
         </FormGroup>{' '}
         <a href="/Login"><Button variant="raised" className={login} >Login</Button></a>
