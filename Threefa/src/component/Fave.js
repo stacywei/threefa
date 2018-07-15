@@ -13,11 +13,16 @@ const styles = theme => ({
     flexWrap: 'wrap',
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
+    margin: '10px',
   },
   gridList: {
     flexWrap: 'nowrap',
     // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
     transform: 'translateZ(0)',
+
+  },
+  word: {
+    fontSize: '25px',
   },
 })
 function Fave(props) {
@@ -32,7 +37,7 @@ function Fave(props) {
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
-              subtitle={<span>{tile.about}</span>}
+              subtitle={<span>{tile.about}</span>} className={classes.word}
             />
           </GridListTile>
         ))}
