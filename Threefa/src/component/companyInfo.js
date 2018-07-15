@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 const styles = theme => ({
   root: {
     position:"absolute",
-    
+    display:"flex",
     left: "150px",
     height:"300px",
     width: "450px",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
-
+import './Company.css';
 
 export default class CompanyTabBar extends React.Component {
         
