@@ -7,6 +7,7 @@ import {Button, Glyphicon, Thumbnail} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './list.css';
 import MediaControlCard from './ListOptions';
+import Content from './content.js'
 
 function TabContainer(props) {
   return (
@@ -70,44 +71,72 @@ class Tabfilter extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={this.props.direction}>
-          <Typography variant='title'> Ethnic 
-          <Link to="/home">
-            <small>   View all </small> 
-            <Glyphicon glyph="arrow-right" className="symbol"/>
-          </Link>
-          </Typography> 
-          <h3> Featured Restaurant </h3>
-          <br/>
-          <Grid container spacing={24}>
-            <Grid item xs={12} sm={6}>
-              <Thumbnail src='assets/restaurant-1.jpg' responsive/>
-            </Grid>
-            <Grid item xs={12} sm={6} >
-              <Tab label="NEW"/>
-              <Tab label="POPULAR"/>
-              <Link to="/company">
-                <MediaControlCard/>
+            <Typography variant='title'> Ethnic 
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
               </Link>
-              <MediaControlCard/>
-              <MediaControlCard/>
-
-            </Grid>
-          </Grid>
-          <hr/>
+            </Typography> 
+            <Content/>
           </TabContainer>
 
-          <TabContainer dir={this.props.direction}><Typography variant='title'> Fast Food  
-          </Typography><Glyphicon glyph="arrow-right"/></TabContainer>
-          <TabContainer dir={this.props.direction}><Typography variant='title'> Casual Dining  
-          <Button> View All</Button> </Typography> </TabContainer>
-          <TabContainer dir={this.props.direction}><Typography variant='title'> Fine Dining  
-           </Typography> </TabContainer>
-          <TabContainer dir={this.props.direction}><Typography variant='title'> Dessert <p> view all </p> 
-           </Typography> </TabContainer>
-          <TabContainer dir={this.props.direction}><Typography variant='title'> Cafe/Bakery <p> view all </p> 
-          </Typography> </TabContainer>
-          <TabContainer dir={this.props.direction}><Typography variant='title'> All <p> view all </p> 
-          </Typography> </TabContainer>
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
+          
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
+          
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+              <small>  View all </small> 
+              <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
+          
+          <TabContainer dir={this.props.direction}>
+            <Typography variant='title'> Fast Food  
+              <Link to="/home">
+                <small>  View all </small> 
+                <Glyphicon glyph="arrow-right" className="symbol"/>
+              </Link>
+            </Typography>
+            <Content/>
+          </TabContainer>
         </SwipeableViews>
       </div>
     );

@@ -12,7 +12,7 @@ import {FormGroup, FormControl} from 'react-bootstrap/es';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
 // import './Home.css'; // WHY ARE YOU IMPORTING THIS CSS AND NOT NAVBAR
-import './Navbar.css';
+import './navbar.css';
 
 
 const styles = theme => ({
