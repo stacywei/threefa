@@ -120,7 +120,7 @@ class Tabfilter extends React.Component {
           </TabContainer>
           <TabContainer dir={this.props.direction}>
             <Typography variant='title'> Fast Food  
-              <Link to="/home">
+              <Link to="/">
               <small>  View all </small> 
               <Glyphicon glyph="arrow-right" className="symbol"/>
               </Link>
@@ -130,7 +130,7 @@ class Tabfilter extends React.Component {
           
           <TabContainer dir={this.props.direction}>
             <Typography variant='title'> Fast Food  
-              <Link to="/home">
+              <Link to="/">
                 <small>  View all </small> 
                 <Glyphicon glyph="arrow-right" className="symbol"/>
               </Link>
