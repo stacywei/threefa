@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { Button,Grid,Row,Col, Image,Panel} from 'react-bootstrap';
 import CompanyInfo from './companyInfo';
 import './Company.css';
+import {Player} from 'video-react';
 
 import Navbar from './Navbar';
 import CompanyTabBar from './CompanyTabBar';
