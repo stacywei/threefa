@@ -1,22 +1,35 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import { Button, Glyphicon, ButtonToolBar, Image} from 'react-bootstrap';
-//import {Search} from 'react-bootstrap';
-//import {ButtonToolbar} from 'react-bootstrap';
+import { Button,Grid,Row,Col, Image,Panel} from 'react-bootstrap';
+import CompanyInfo from './companyInfo';
 import './Company.css';
-//import {Login} from './component/CreateAccount';
+
 import Navbar from './Navbar';
 import CompanyTabBar from './CompanyTabBar';
  
  
-export default class Home extends Component{
+export default class Company extends Component{
     
     render(){
       return(
         <div>
           <Navbar/>
-          <header> Hello  is the company page </header>
-          <CompanyTabBar/>
+          <Grid className="company-grid">
+            <Row>
+                <Col xs={6} md={4}>
+                    <Image src="assets/restaurant-1.jpg" className="company-img"  />
+                </Col>
+                <Col xs={6} md={4} >
+                    <CompanyInfo />
+  
+               </Col>
+            </Row>
+            <Row>
+            
+            <CompanyTabBar/>
+            </Row>
+            </Grid>
+          
         </div>
       );
     }

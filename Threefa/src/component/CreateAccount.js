@@ -37,7 +37,7 @@ export default class Create extends Component{
       
       <div className="Create">
         <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="email" bsSize="large" >
+          <FormGroup controlId="email">
             <ControlLabel className = "Create-eLabel"> Email Address:</ControlLabel>
             <FormControl className="Create-email"
               autoFocus
@@ -46,8 +46,8 @@ export default class Create extends Component{
               onChange={this.handleChange}
               />
           </FormGroup>
-          <FormGroup controlId="password" bsSize="large" >
-            <ControlLabel className = "Create-pLabel"> Create a password:</ControlLabel>
+          <FormGroup controlId="password"  >
+            <ControlLabel className = "Create-pLabel"> Create a password: </ControlLabel>
             <FormControl className = "Create-pass"
               value={this.state.password}
               onChange={this.handleChange}
@@ -55,9 +55,8 @@ export default class Create extends Component{
               
             />
           </FormGroup>
-          <Button className = "Create-button"
-            block
-            bsSize="large"
+          <Button  className = "Create-button"
+           
             disabled={!this.validateForm()}
             type="submit"
           >

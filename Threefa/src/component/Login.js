@@ -37,7 +37,7 @@ export default class Login extends Component {
       <div className="Login">
         <form onSubmit={this.handleSubmit}>
         <AccountCircle className="Login-icon" />
-          <FormGroup controlId="email" bsSize="large" >
+          <FormGroup controlId="email" >
             
             <FormControl className="Login-email"
               autoFocus
@@ -57,8 +57,7 @@ export default class Login extends Component {
             />
           </FormGroup>
           <Button className = "Login-button"
-            block
-            bsSize="large"
+            
             disabled={!this.validateForm()}
             type="submit"
           >

@@ -1,0 +1,12 @@
+.company-img{
+    
+    height: 300px;
+    width: 500px;
+   
+}
+.company-grid{
+    position: absolute;
+    top:100px;
+    left:70px;
+  
+}

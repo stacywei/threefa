@@ -10,13 +10,13 @@
     border-color:#f1fafa;
     border-radius:12px;
     height: 400px;
-    left: 40%;
+    left:40%;
    }
 
  .Login-button{
   position: absolute;
   background-color:#aed27b;
-  color:white;
+  color:green;
   font-size: 12px;
   width: 100px;
   height:25px;
@@ -44,7 +44,7 @@
  .Login-or{
   position: absolute;
   right:49%;
-  top:55%;
+  top:60%;
   
  }
  .Login-create{

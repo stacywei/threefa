@@ -12,7 +12,7 @@ import {FormGroup, FormControl} from 'react-bootstrap/es';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
 // import './Home.css'; // WHY ARE YOU IMPORTING THIS CSS AND NOT NAVBAR
-import './Navbar.css';
+import './navbar.css';
 
 
 const styles = theme => ({
@@ -78,7 +78,7 @@ return (
           			anchorEl={anchorEl}
           			open={Boolean(anchorEl)}
           			onClose={this.handleClose}>
-         		 <MenuItem onClick={this.handleClose}>Profile</MenuItem> 
+         		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem> 
          		 <MenuItem onClick={this.handleClose}>My account</MenuItem>
           		<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
 				<Typography className={flex}>
