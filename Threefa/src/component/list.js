@@ -31,8 +31,10 @@ const styles = theme => ({
   bar: {
   	marginLeft: '20px',
   	marginRight:'20px',
+  },
+  tab: {
+    fontSize: '40px important'
   }
-
 });
 
 class Tabfilter extends React.Component {
@@ -57,13 +59,13 @@ class Tabfilter extends React.Component {
           className={classes.bar} 
           indicatorColor='primary'
           fullWidth>
-            <Tab label="Ethnic" />
-            <Tab label="Fast Food" />
-            <Tab label="Casual Dining"/>
-            <Tab label="Fine Dining"/>
-            <Tab label="Dessert"/>
-			      <Tab label="Cafe/Bakery"/>
-			      <Tab label="All"/>
+            <Tab label={<span style={{ fontSize: '12px' }}>Ethnic</span>}/>
+            <Tab label={<span style={{ fontSize: '12px' }}>Fast Food</span>} />
+            <Tab label={<span style={{ fontSize: '12px' }}>Casual Dining</span>}/>
+            <Tab label={<span style={{ fontSize: '12px' }}>Fine Dining</span>}/>
+            <Tab label={<span style={{ fontSize: '12px' }}>Dessert</span>}/>
+			      <Tab label={<span style={{ fontSize: '12px' }}>Cafe/Bakery</span>}/>
+			      <Tab label={<span style={{ fontSize: '12px' }}>All</span>}/>
           </Tabs>
           <SwipeableViews
           axis={this.props.direction === 'rtl' ? 'x-reverse' : 'x'}
