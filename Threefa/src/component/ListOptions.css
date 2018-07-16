@@ -1,0 +1,4 @@
+.likebutton {
+    pointer-events: none;
+    cursor: default;
+}

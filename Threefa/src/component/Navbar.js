@@ -82,7 +82,7 @@ return (
          		 <MenuItem onClick={this.handleClose}>My account</MenuItem>
           		<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
 				<Typography className={flex}>
-					<a href='/' className={link}>Threefa </a>
+					<a href='/' className={link} >Threefa </a>
 				</Typography>
         <FormGroup className="searchbar">
           <FormControl type="text" placeholder="Search" className={search}/>

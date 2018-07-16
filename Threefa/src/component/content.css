@@ -1,0 +1,4 @@
+.listofrestaurants {
+    display: flex;
+    flex-direction: column;
+}

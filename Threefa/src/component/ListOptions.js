@@ -6,7 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import LikeButton from './FavoriteButton';
+import { Link } from 'react-router-dom';
 import './ListOptions.css';
 
 const styles = theme => ({
@@ -43,22 +44,24 @@ function MediaControlCard(props) {
   return (
     <div>
       <Card className={classes.card}>
+      <Link to="/company">
       <CardMedia
           className={classes.cover}
           image="assets/restaurant-1.jpg"
           title="Description of Restaurant"
         />
+        </Link>
         <div className={classes.details}>
+        <Link to="/company">
           <CardContent className={classes.content}>
             <Typography variant="headline">Description of Restaurant</Typography>
             <Typography variant="subheading" color="textSecondary">
               % funded
             </Typography>
           </CardContent>
+        </Link>
           <div className={classes.controls}>
-            <IconButton>
-                <FavoriteBorder />
-            </IconButton>
+            <LikeButton/>
           </div>
         </div>
       </Card>

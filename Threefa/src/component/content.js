@@ -16,11 +16,12 @@ function Content(props) {
             </Grid>
             <Grid item xs={12} sm={6} >
               <Tab label="NEW"/>
-              <Tab label="POPULAR"/>
-              <Link to="/company">
-                <MediaControlCard/>
-              </Link>
+              <Tab label="POPULAR"/> 
+              <div className='listofrestaurants'>    
               <MediaControlCard/>
+              <MediaControlCard/>
+              <MediaControlCard/>
+              </div>
             </Grid>
             </Grid>
      </div>
