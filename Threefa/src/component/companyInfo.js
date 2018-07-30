@@ -98,7 +98,7 @@ function PaperSheet(props) {
 
         
     
-        <Button size="large" className={classes.join}>Join</Button>
+        <a href="/join"><Button size="large" className={classes.join}>Join</Button></a>
       </Paper>
     </div>
   );

@@ -71,6 +71,7 @@ export default class formInstance extends React.Component {
             type="file"
       />
     </FormGroup>
+     <Button type="submit">Submit</Button>
   </form>
   </div>
   ) } }

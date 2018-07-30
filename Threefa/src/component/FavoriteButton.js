@@ -1,7 +1,7 @@
 import React from 'react';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import Favorite from '@material-ui/icons/Favorite';
-import { IconButton } from '../../node_modules/@material-ui/core';
+import { IconButton } from '@material-ui/core';
 
 export default class LikeButton extends React.Component {
     constructor() {
