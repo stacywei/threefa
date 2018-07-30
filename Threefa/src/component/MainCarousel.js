@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Carousel, ButtonToolbar, Button } from 'react-bootstrap';
 import './MainCarousel.css';
+import { Link } from 'react-router-dom';
 
 export default class MainCarousel extends Component {
     render() {
@@ -13,7 +14,7 @@ export default class MainCarousel extends Component {
                             <h1>Start Funding</h1>
                             <ButtonToolbar>
                                 <Button> What is Threefa?</Button>
-                                <Button>Start My Page</Button>
+                                <a href="./startform"><Button>Start My Page</Button></a>
                             </ButtonToolbar>
                         </div>
                     </Carousel.Caption>
@@ -25,7 +26,7 @@ export default class MainCarousel extends Component {
                             <h1>Start Funding</h1>
                             <ButtonToolbar>
                                 <Button> What is Threefa?</Button>
-                                <Button>Start My Page</Button>
+                                <a href="/startform"><Button>Start My Page</Button></a>
                             </ButtonToolbar>
                         </div>
                     </Carousel.Caption>

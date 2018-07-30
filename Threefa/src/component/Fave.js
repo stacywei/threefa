@@ -37,7 +37,8 @@ function Fave(props) {
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
-              subtitle={<span>{tile.about}</span>} className={classes.word}
+              subtitle={<span>{tile.about}</span>} 
+              className={classes.word}
             />
           </GridListTile>
         ))}

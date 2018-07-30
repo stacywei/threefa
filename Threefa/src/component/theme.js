@@ -15,10 +15,17 @@ export default createMuiTheme({
   	MuiMenuItem: {
   		root: {
   			'&:hover': {
-          		color: "#4caf50",
+          		color: "gold",
           		background: 'transparent',
         	}
   		}
-  	}
+  	},
+    MuiTypography: {
+      root: {
+        '&:hover': {
+          color: "white",
+        }
+      }
+    }
   },
 })

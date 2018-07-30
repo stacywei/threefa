@@ -13,9 +13,6 @@ export default class CompanyTabBar extends React.Component {
                 <Tab eventKey={2} title="Project Overview">
                     More about the company
                 </Tab>
-                <Tab eventKey={3} title="FAQ">
-                    Questions
-                </Tab>
             </Tabs>
         )
     }

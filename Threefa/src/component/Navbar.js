@@ -11,7 +11,6 @@ import { withStyles } from '@material-ui/core/styles';
 import {FormGroup, FormControl} from 'react-bootstrap/es';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
-// import './Home.css'; // WHY ARE YOU IMPORTING THIS CSS AND NOT NAVBAR
 import './navbar.css';
 
 
@@ -20,6 +19,7 @@ flex: {
     flex: 1,
     marginBottom: '10px',
     fontWeight:'bold',
+    fontSize:'12px'
 },
 bar: {
 	background: 'black',
@@ -31,16 +31,17 @@ login: {
   background: "green",
   color: "white",
   marginBottom: 15,
+  fontSize:'12px'
 },
 simple: {
   marginTop: 30,
 },
 icon: {
-  marginBottom:10,
+  marginBottom:12,
   color: 'white'
 },
 search: {
-  marginBottom: 0,
+  marginBottom: 15,
 },
 link:{
   color: 'white',
