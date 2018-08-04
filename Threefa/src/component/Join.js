@@ -56,7 +56,7 @@ export default class Join extends React.Component {
     </FormGroup>
     
      <FormGroup controlId="category">
-      <ControlLabel></ControlLabel> 
+      <ControlLabel>Amount of shares</ControlLabel> 
       <FormControl componentClass="select">
         <option value="1">10</option>
         <option value="2">100</option>
