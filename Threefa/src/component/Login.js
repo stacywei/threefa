@@ -36,7 +36,7 @@ export default class Login extends Component {
         <Navbar/>
       
       <div className="Login">
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} method="post">
         <AccountCircle className="Login-icon" />
           <FormGroup controlId="email" >
             
@@ -65,7 +65,7 @@ export default class Login extends Component {
             Login
           </Button>
          <p className="Login-or"> or</p>
-         <a href = "/Create" className= "Login-create" > New User? Create an account </a>
+         <a href = "/signup" className= "Login-create" > New User? Create an account </a>
         </form>
       </div>
       </div>

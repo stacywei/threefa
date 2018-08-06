@@ -52,6 +52,7 @@ export default class Create extends Component{
               value={this.state.password}
               onChange={this.handleChange}
               type="password"
+              name="password"
               
             />
           </FormGroup>

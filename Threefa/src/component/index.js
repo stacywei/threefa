@@ -11,7 +11,7 @@ export default() =>
  <Switch>
  <Route path="/" exact component={Home} />
  <Route path="/Company" exact component = {Company}/>
- <Route path="/Create" exact component ={Create}/>
+ <Route path="/signup" exact component ={Create}/>
  <Route path="/login" exact component={Login} />
  <Route path="/join" exact component ={Join}/>
 =======

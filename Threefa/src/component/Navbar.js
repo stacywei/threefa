@@ -88,7 +88,7 @@ return (
         <FormGroup className="searchbar">
           <FormControl type="text" placeholder="Search" className={search}/>
         </FormGroup>{' '}
-        <a href="/Login"><Button variant="raised" className={login} >Login</Button></a>
+        <a href="/login"><Button variant="raised" className={login} >Login</Button></a>
 			</Toolbar>
 		</AppBar>
 	</div>
