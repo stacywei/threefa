@@ -80,7 +80,7 @@ return (
           			open={Boolean(anchorEl)}
           			onClose={this.handleClose}>
          		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem> 
-         		 <MenuItem onClick={this.handleClose}>My account</MenuItem>
+         		 <MenuItem onClick={this.handleClose}><a href="/FAQ">FAQs</a></MenuItem>
           		<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
 				<Typography className={flex}>
 					<a href='/' className={link} >Threefa </a>
