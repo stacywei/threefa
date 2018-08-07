@@ -14,7 +14,9 @@ const styles = theme => ({
   },
   heading: {
     fontSize: theme.typography.pxToRem(24),
-    fontWeight: theme.typography.fontWeightRegular,
+  },
+  answer: {
+    fontSize: 12,
   },
 });
 
@@ -27,7 +29,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Can I cancel my investment?</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography >
+          <Typography className={classes.answer}>
             Yes, but only within 24 hours
           </Typography>
         </ExpansionPanelDetails>
@@ -37,7 +39,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 2</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question two
           </Typography>
         </ExpansionPanelDetails>
@@ -47,7 +49,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 3</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question 3
           </Typography>
         </ExpansionPanelDetails>
@@ -57,7 +59,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 4</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question 4
           </Typography>
         </ExpansionPanelDetails>
@@ -67,7 +69,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 5</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question 5
           </Typography>
         </ExpansionPanelDetails>
@@ -77,7 +79,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 6</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question 6
           </Typography>
         </ExpansionPanelDetails>
@@ -87,7 +89,7 @@ function Panel(props) {
           <Typography className={classes.heading}><b>Question 7</b></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.answer}>
             answers to question 7
           </Typography>
         </ExpansionPanelDetails>

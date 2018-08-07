@@ -13,7 +13,7 @@ export default class MainCarousel extends Component {
                           <div className='insideitem'>
                             <h1>Start Funding</h1>
                             <ButtonToolbar>
-                                <Button> What is Threefa?</Button>
+                                <a href="./About"><Button> What is this?</Button></a>
                                 <a href="./startform"><Button>Start My Page</Button></a>
                             </ButtonToolbar>
                         </div>
@@ -25,7 +25,7 @@ export default class MainCarousel extends Component {
                           <div className='insideitem'>
                             <h1>Start Funding</h1>
                             <ButtonToolbar>
-                                <Button> What is Threefa?</Button>
+                                <a href="./About"><Button> What is this?</Button></a>
                                 <a href="/startform"><Button>Start My Page</Button></a>
                             </ButtonToolbar>
                         </div>
@@ -37,8 +37,8 @@ export default class MainCarousel extends Component {
                           <div className='insideitem'>
                             <h1>Start Funding</h1>
                             <ButtonToolbar>
-                                <Button> What is Threefa?</Button>
-                                <Button>Start My Page</Button>
+                                <a href="./About"><Button> What is this?</Button></a>
+                                <a href="/startform"><Button>Start My Page</Button></a>
                             </ButtonToolbar>
                         </div>
                     </Carousel.Caption>

@@ -7,6 +7,7 @@ import Login from './Login';
 import Join from './Join';
 import startform from './startform';
 import Faq from './FAQ';
+import About from './About';
 export default() =>
 (<BrowserRouter>
  <Switch>
@@ -17,6 +18,7 @@ export default() =>
  <Route path="/join" exact component ={Join}/>
  <Route path="/startform" exact component={startform} />
  <Route path="/FAQ" exact component ={Faq}/>
+ <Route path="/About" exact component ={About}/>
 
  </Switch>
  

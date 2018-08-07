@@ -8,6 +8,7 @@ export default class formInstance extends React.Component {
   return(
 <div>
   <Navbar/>
+  <h4> Fill out the form below to start your fundraising campaign! </h4>
   <form>
     <FormGroup>
           <ControlLabel>Name of Restaurant</ControlLabel>

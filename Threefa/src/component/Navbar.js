@@ -1,15 +1,9 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
+import {AppBar,Toolbar, Button,IconButton, Menu, MenuItem, MuiThemeProvider} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
+import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import {FormGroup, FormControl} from 'react-bootstrap/es';
-import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
 import './navbar.css';
 
@@ -33,8 +27,9 @@ login: {
   marginBottom: 15,
   fontSize:'12px'
 },
-simple: {
+hamburger: {
   marginTop: 30,
+  fontSize: 30,
 },
 icon: {
   marginBottom:12,
@@ -49,7 +44,7 @@ link:{
 }
 });
 
-class NavBar extends React.Component{
+class Navbar extends React.Component{
 state = {
     anchorEl: null,
   };
@@ -65,7 +60,7 @@ state = {
 
  render() {
     const { anchorEl } = this.state;
-    const {flex, bar, login, simple, icon, search, link} =this.props.classes; 
+    const {flex, bar, login, hamburger, icon, search, link} =this.props.classes; 
 
 return (
   <MuiThemeProvider theme={theme}>
@@ -75,11 +70,12 @@ return (
 				<IconButton className= {icon} onClick={this.handleClick}>
             	<MenuIcon /> </IconButton>
             	<Menu
-          			className={simple}
+          			className={hamburger}
           			anchorEl={anchorEl}
           			open={Boolean(anchorEl)}
           			onClose={this.handleClose}>
-         		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem> 
+         		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem>
+             <MenuItem onClick={this.handleClose}><a href="/About">About Us</a></MenuItem>  
          		 <MenuItem onClick={this.handleClose}><a href="/FAQ">FAQs</a></MenuItem>
           		<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
 				<Typography className={flex}>
@@ -96,4 +92,4 @@ return (
 	)
 }
 }
-export default withStyles(styles)(NavBar);
+export default withStyles(styles)(Navbar);
