@@ -21,8 +21,17 @@ const styles = theme => ({
     transform: 'translateZ(0)',
 
   },
-  word: {
-    fontSize: '25px',
+  title: {
+    fontSize:20,
+    textDecoration: 'underline',
+    marginBottom: 5,
+  },
+  subtitle: {
+    fontSize: 12,
+  },
+  img:{
+    width: '100%',
+    height:'100%',
   },
 })
 function Fave(props) {
@@ -34,11 +43,14 @@ function Fave(props) {
       <GridList className={classes.gridList} cols={3}>
         {foodData.map(tile => (
           <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
+            <a href='./Company'><img src={tile.img} alt={tile.title} className={classes.img}/> </a>
             <GridListTileBar
               title={tile.title}
               subtitle={<span>{tile.about}</span>} 
-              className={classes.word}
+              classes={{
+                title: classes.title,
+                subtitle: classes.subtitle,
+              }}
             />
           </GridListTile>
         ))}
