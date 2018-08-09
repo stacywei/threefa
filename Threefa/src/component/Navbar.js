@@ -4,7 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import {FormGroup, FormControl} from 'react-bootstrap/es';
-import theme from './Theme';
+import theme from './Theme.js';
 import '../styles/Navbar.css';
 
 
@@ -29,7 +29,6 @@ login: {
 },
 hamburger: {
   marginTop: 30,
-  fontSize: 30,
 },
 icon: {
   marginBottom:12,
@@ -77,7 +76,7 @@ return (
          		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem>
              <MenuItem onClick={this.handleClose}><a href="/About">About Us</a></MenuItem>  
          		 <MenuItem onClick={this.handleClose}><a href="/FAQ">FAQs</a></MenuItem>
-          		<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
+          	<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>
 				<Typography className={flex}>
 					<a href='/' className={link} >Threefa </a>
 				</Typography>

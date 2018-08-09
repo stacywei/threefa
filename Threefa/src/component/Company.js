@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import CompanyInfo from './CompanyInfo';
+import CompanyInfo from './companyInfo';
 import '../styles/Company.css';
 import Similar from './Similar';
 import Navbar from './Navbar';

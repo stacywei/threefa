@@ -5,7 +5,7 @@ import '../styles/Home.css';
 //import BigCard from './bigcard'
 import MainCarousel from './MainCarousel';
 import Navbar from './Navbar';
-import Tabfilter from './List'
+import Tabfilter from './list'
 import Fave from './Fave.js'
 
  
