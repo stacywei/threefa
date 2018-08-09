@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import {Card, CardContent, CardMedia} from '@material-ui/core/';
-import IconButton from '@material-ui/core/IconButton';
+import {Card, CardContent, CardMedia} from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import LikeButton from './FavoriteButton';
 import { Link } from 'react-router-dom';
-import './ListOptions.css';
+import '../styles/ListOptions.css';
 
 const styles = theme => ({
   card: {

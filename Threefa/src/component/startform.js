@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
-import {Form, InputGroup, form, Checkbox,FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
-import './startform.css';
+import {Form, form, Checkbox,FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
+import '../styles/Startform.css';
 
 export default class formInstance extends React.Component {
   render() {

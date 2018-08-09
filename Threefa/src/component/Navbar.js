@@ -4,8 +4,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import {FormGroup, FormControl} from 'react-bootstrap/es';
-import theme from './theme';
-import './navbar.css';
+import theme from './Theme';
+import '../styles/Navbar.css';
 
 
 const styles = theme => ({

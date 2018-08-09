@@ -1,6 +1,6 @@
-import p1 from '../p1.jpg';
-import Ramen from '../Ramen.jpg';
-import p2 from '../p2.jpg';
+import p1 from '../sample/p1.jpg';
+import Ramen from '../sample/Ramen.jpg';
+import p2 from '../sample/p2.jpg';
  
   const foodData = [
     {

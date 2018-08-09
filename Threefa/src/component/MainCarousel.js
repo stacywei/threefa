@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, ButtonToolbar, Button } from 'react-bootstrap';
-import './MainCarousel.css';
-import { Link } from 'react-router-dom';
+import '../styles/MainCarousel.css';
 
 export default class MainCarousel extends Component {
     render() {

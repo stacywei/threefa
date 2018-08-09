@@ -1,9 +1,8 @@
 import React from 'react';
-import {AppBar, Tabs, Tab, Typography, Grid} from '@material-ui/core'
-import {Button, Glyphicon, Thumbnail} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import './list.css';
+import { Tab, Grid } from '@material-ui/core'
+import {Thumbnail} from 'react-bootstrap';
 import MediaControlCard from './ListOptions';
+import '../styles/Content.css';
 
 function Content(props) {
     return (

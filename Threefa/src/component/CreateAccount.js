@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {ControlLabel, FormControl, Button, FormGroup} from 'react-bootstrap';
-import './CreateAccount.css';
+import '../styles/CreateAccount.css';
 import Navbar from './Navbar';
 
 

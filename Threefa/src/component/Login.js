@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl} from "react-bootstrap";
-import "./Login.css";
+import "../styles/Login.css";
 import Navbar from './Navbar';
 import AccountCircle from '@material-ui/icons/es/AccountCircle';
 

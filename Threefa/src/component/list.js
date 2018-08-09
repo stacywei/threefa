@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import {AppBar, Tabs, Tab, Typography, Grid} from '@material-ui/core'
+import {Tabs, Tab, Typography} from '@material-ui/core'
 import SwipeableViews from 'react-swipeable-views';
-import {Button, Glyphicon, Thumbnail} from 'react-bootstrap';
+import {Glyphicon} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './list.css';
-import MediaControlCard from './ListOptions';
-import Content from './content.js'
+import '../styles/List.css';
+import Content from './Content'
 
 function TabContainer(props) {
   return (

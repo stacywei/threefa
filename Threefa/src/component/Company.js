@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
-import { Button,Grid,Row,Col, Image,Panel} from 'react-bootstrap';
-import CompanyInfo from './companyInfo';
-import './Company.css';
-import {Player} from 'video-react';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
+import CompanyInfo from './CompanyInfo';
+import '../styles/Company.css';
 import Similar from './Similar';
 import Navbar from './Navbar';
 import CompanyTabBar from './CompanyTabBar';

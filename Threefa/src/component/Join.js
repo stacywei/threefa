@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
-import {Form, InputGroup, form, Checkbox,FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
-import './Join.css';
+import {Form, form, Checkbox,FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
+import '../styles/Join.css';
 
 export default class Join extends React.Component {
   render() {

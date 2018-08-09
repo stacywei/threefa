@@ -5,7 +5,7 @@ import Company from './Company';
 import Create from './CreateAccount';
 import Login from './Login';
 import Join from './Join';
-import startform from './startform';
+import startform from './Startform';
 import Faq from './FAQ';
 import About from './About';
 export default() =>
