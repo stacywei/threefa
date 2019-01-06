@@ -1,2 +1,2 @@
-# threefa-dev
+# Threefa
 Crowdfunding Web Application
