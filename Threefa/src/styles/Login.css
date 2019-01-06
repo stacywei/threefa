@@ -1,0 +1,62 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px;
+    
+  }
+
+  .Login form {
+    position: absolute;
+    width: 320px;
+    border-style:solid;
+    border-color:#f1fafa;
+    border-radius:12px;
+    height: 400px;
+    left:40%;
+   }
+
+ .Login-button{
+  position: absolute;
+  background-color:#aed27b;
+  color:green;
+  font-size: 12px;
+  width: 100px;
+  height:25px;
+  top:50%;
+  right:32%;
+  
+ 
+ }
+ .Login-pass{
+ 
+  position:absolute;
+  left:20%;
+  top:40%;
+  height: 25px;
+  width: 200px;
+  
+ }
+ .Login-email{
+  position:absolute;
+  left:20%;
+  top:30%;
+  height: 25px;
+  width: 200px;
+ }
+ .Login-or{
+  position: absolute;
+  right:49%;
+  top:60%;
+  
+ }
+ .Login-create{
+  position: absolute;
+  right: 20%;
+  top:65%;
+ }
+ .Login-icon{
+  position:absolute;
+  right:43%;
+  top: 10%;
+  font-size: 50px !important;
+ }
+}

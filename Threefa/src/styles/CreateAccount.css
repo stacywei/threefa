@@ -1,0 +1,57 @@
+@media all and (min-width: 480px) {
+  .Create {
+    padding: 60px;
+    
+    
+  }
+
+  .Create form {
+    position: absolute;
+    width: 320px;
+    border-style:solid;
+    border-color:#f1fafa;
+    border-radius:12px;
+    height: 400px;
+    left: 40%;
+   }
+
+ .Create-button{
+  position: absolute;
+  background-color:#aed27b;
+  color:black;
+  font-size: 12px;
+  width: 150px;
+  height:25px;
+  top:60%;
+  right:25%;
+  
+ 
+ }
+ .Create-pass{
+ 
+  position:absolute;
+  left:50%;
+  top:45%;
+  height:20px;
+  width: 150px;
+  
+ }
+ .Create-email{
+  position:absolute;
+  left:50%;
+  top:33%;
+  height: 20px;
+  width: 150px;
+ }
+ .Create-eLabel{
+  position: absolute;
+  left:14.5%;
+  top:33%;
+  
+ }
+ .Create-pLabel{
+  position: absolute;
+  left: 5%;
+  top:45%;
+ }
+}

@@ -1,0 +1,16 @@
+
+.button {
+border: 0;
+ background: none;
+ box-shadow: none;
+ border-radius: 0px;
+}
+
+.grid {
+	height: 171px;
+	width: 180px;
+}
+.thumbnail {
+	height: 100%;
+	width: 100%;
+}

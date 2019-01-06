@@ -1,0 +1,13 @@
+.company-img{
+    
+    height: 300px;
+    max-width:500px;
+   
+}
+.company-grid{
+    position: absolute;
+    top:80px;
+    left:20px;
+  
+}
+
