@@ -8,17 +8,17 @@ import Navbar from './Navbar';
 import Tabfilter from './List'
 import Fave from './Fave.js'
 
- 
-export default class Home extends Component{
-    
-    render(){
-      return(
-        <div>
-        <Navbar/>
-        <MainCarousel/>
-       	<Tabfilter/>
-       	<Fave/>
-        </div>
-      );
-    }
+
+export default class Home extends Component {
+
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <MainCarousel />
+        <Tabfilter />
+        <Fave />
+      </div>
+    );
+  }
 }
