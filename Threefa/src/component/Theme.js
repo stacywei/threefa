@@ -15,7 +15,7 @@ export default createMuiTheme({
   	MuiMenuItem: {
   		root: {
   			'&:hover': {
-          		color: "gold",
+          		color: "green",
           		background: 'transparent',
         	}
   		}

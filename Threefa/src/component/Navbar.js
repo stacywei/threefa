@@ -73,7 +73,6 @@ return (
           			anchorEl={anchorEl}
           			open={Boolean(anchorEl)}
           			onClose={this.handleClose}>
-         		 <MenuItem onClick={this.handleClose}><a href="/Company">Company</a></MenuItem>
              <MenuItem onClick={this.handleClose}><a href="/About">About Us</a></MenuItem>  
          		 <MenuItem onClick={this.handleClose}><a href="/FAQ">FAQs</a></MenuItem>
           	<MenuItem onClick={this.handleClose}>Logout</MenuItem></Menu>

@@ -11,6 +11,20 @@ export default class formInstance extends React.Component {
   <h4> Fill out the form below to start your fundraising campaign! </h4>
   <form>
     <FormGroup>
+          <ControlLabel>First Name</ControlLabel>
+          <FormControl
+            type="text"
+            placeholder="First name"
+          />
+    </FormGroup>
+    <FormGroup>
+          <ControlLabel>Last Name</ControlLabel>
+          <FormControl
+            type="text"
+            placeholder="Last name"
+          />
+    </FormGroup>
+    <FormGroup>
           <ControlLabel>Name of Restaurant</ControlLabel>
           <FormControl
             type="text"
